@@ -1,0 +1,362 @@
+
+.ocean{
+    .ocean-things{
+        padding-left: 150px;
+        padding-right: 150px;
+        padding-top: 30px;
+        padding-bottom: 0px;
+        display: flex;
+        .img1{
+            width: 600px;
+            height: 730px;
+            padding-top: 100px;
+            z-index: 1;
+            .img-1{
+                width: 100%;
+                height: 100%;
+            }
+        }
+        .title{
+            margin-top: 0;
+            width: 700px;
+            height: 280px;        
+            background-color: gold;
+            position: absolute;
+            left: 520px;
+            .title-head{
+                font-weight: bold;
+                font-size: 60px;
+                text-align: right;
+                color: midnightblue;
+                z-index: 2;
+            }
+            .title-text{
+                padding-left: 350px;
+                padding-top: 70px;
+                width: 400px;
+                height: 200px;
+                font-weight: bold;
+                font-size: 20px;
+                font-family: sans-serif;
+            }
+        }
+        .ocean3rd{
+            .ocean-button{
+                margin-left: 300px;
+                padding: 5px;
+                border: none;
+                background-color: gold;
+                width: 180px;
+                height: 50px;
+                z-index: 1;
+                position: absolute;
+                top: 390px;
+                left: 830px;
+                font-size: 16px;
+                font-weight: bold;
+            }
+            .img2{
+                padding: 380px 0;
+                padding-left: 100px;
+                width: 600px;
+                height: 400px;
+                .img-2{
+                    width: 100%;
+                    height: 100%;
+                    z-index: 2;
+                }
+            }
+        }
+    }
+    .ocean-ievenn{
+        position: absolute;
+        top: 900px;
+        left: 1250px;
+        color: gray;
+        font-family: sans-serif;
+        font-size: 20px;
+    }
+}
+.ecology{
+    padding-bottom: 100px;
+    .ecology-things{
+        padding: 0 150px;
+        padding-bottom: 200px;
+        display: flex;
+        .ecology-title{
+            padding-top: 0;
+            .ecology-text{
+                width: 300px;
+                height: 280px;
+                font-family: sans-serif;
+                font-style: italic;
+                font-weight: bold;
+                font-size: 20px;
+                color: gray;
+                padding-top: 0;
+             //   background-color: aqua;
+            }
+            .ecology-head{
+                padding-left: 40px;
+                background-color: gold;
+                padding-top: 100px;
+                width: 150px;
+                height: 380px;
+                color: midnightblue;
+                font-size: 50px;
+                font-weight: bold;
+
+            }
+        }
+        .ecology-photos{
+            display: flex;
+            .img-12{
+                .photo1{
+                    width: 650px;
+                    height: 400px;
+                    padding-right: 5px;
+                }
+                .photo2{
+                    width: 600px;
+                    height: 300px;
+                    padding-left: 50px;
+                    padding-right: 5px;
+                }
+            }
+            .img-34{
+                .photo3{
+                    width: 350px;
+                    height: 250px;
+                }
+                .bg-color-4{
+                    width: 380px;
+                    height: 480px;
+                    background-color: gold;
+                    .photo4{
+                        width: 350px;
+                        height: 450px;   
+                       }
+                }
+            }
+        }
+    }
+}
+
+.cleaning{
+    width: 100%;
+    height: 300px;
+    background-color: gold;
+    // position: absolute;
+    // top: 2100px;
+    .cleaning-things{
+        padding: 0 150px;
+        padding-bottom: 150px;
+        .cleaning-head{
+            display: flex;
+            .title-photo{
+                width: 390px;
+                height: 350px;
+                position: sticky;
+                padding-right: 50px;
+                .photo7{
+                    width: 100%;
+                    height: 100%;
+                    position: absolute;
+                    bottom: 90px;
+                }
+            }
+            .main-texts{
+                padding-top: 50px;
+                padding-left: 40px;
+                .cleaning-title{
+                    color: midnightblue;
+                    font-size: 50px;
+                    font-weight: bold;
+                    padding-bottom: 15px;
+                }
+                .cleaning-head-text{
+                    font-weight: bold;
+                    font-size: 20px;
+                    padding-bottom: 15px;
+                    font-family: sans-serif;
+                }
+                .cleaning-button{
+                    color: white;
+                    background-color: black;
+                    width: 180px;
+                    height: 50px;
+                    font-size: 16px;
+                    font-weight: bold;
+                }
+            }
+        }
+        .cleaning-main-text{
+            width: 430px;
+            height: 200px;
+            font-weight: bold;
+            font-size: 20px;
+            font-family: sans-serif;
+            text-align: left;
+            padding-bottom: 50px;
+        }
+        .cleaning-2rd{
+            .cleaning-about{
+                width: 650px;
+                height: 450px;
+                background-color: gold;
+                padding: 0px 50px;
+                z-index: 3;
+                position: absolute;
+                top: 2850px;
+                .about-cleaning-title{
+                    color: midnightblue;
+                    font-size: 55px;
+                    font-weight: bold;
+                    position: absolute;
+                    padding-right: 30px;
+                    top: 0;
+                }
+                .about-cleaning-text{
+                    font-weight: bold;
+                    font-size: 20px;
+                    font-family: sans-serif;
+                    text-align: left;
+                    padding-left: 15px;
+                    padding-right: 50px;
+                    position: absolute;
+                    top: 180px;
+                }
+                .about-cleaning-button{
+                    color: white;
+                    background-color: black;
+                    width: 180px;
+                    height: 50px;
+                    font-size: 16px;
+                    font-weight: bold;
+                    position: absolute;
+                    top: 360px;
+                }
+            }
+            .cleaning-photos{
+                .img8{
+                    .bg-color8{
+                        width: 450px;
+                        height: 370px;
+                        z-index: 2;
+                        position: absolute;
+                        top: 2825px;
+                        left: 980px;
+                        background-color: gold;
+                    }
+                    .photo8{
+                        width: 700px;
+                        height: 540px;
+                        z-index: 2;
+                        position: absolute;
+                        top: 2610px;
+                        left: 675px;
+                    }
+                }
+                .img9{
+                    .photo9{
+                        width: 810px;
+                        height: 520px;
+                        padding-bottom: 300px;
+                        z-index: 1;
+                        position: absolute;
+                        top: 2750px;
+                        left: 675px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.save-ocean{
+    width: 100%;
+    height: 830px;
+    position: absolute;
+    top: 3400px;
+    background-color: gold;
+    .save-ocean-things{
+        width: 500px;
+        height: 280px;
+        background-color: white;
+        z-index: 2;
+        position: absolute;
+        top: 300px;
+        left: 600px;
+        padding: 20px;
+        .save-ocean-title{
+            color: midnightblue;
+            font-size: 50px;
+            font-weight: bold;
+            text-align: center;
+        }
+        .save-ocean-text{
+            font-weight: bold;
+            font-size: 20px;
+            text-align: center;
+            font-family: sans-serif;
+            margin-top: 30px;
+        }
+        .save-ocean-button{
+            color: white;
+            background-color: black;
+            width: 180px;
+            height: 50px;
+            font-size: 16px;
+            font-weight: bold;
+            margin-left: 140px;
+            margin-top: 30px;
+        }
+    }
+    .save-ocean-photos{
+        padding-bottom: 300px;
+        .img10{
+            width: 670px;
+            height: 540px;
+            position: absolute;
+            top: 130px;
+            left: 170px;
+            .photo10{
+                width: 100%;
+                height: 100%;
+            }
+        }
+        .img11{
+            width: 310px;
+            height: 360px;
+            position: absolute;
+            top: 60px;
+            left: 870px;
+            .photo11{
+                width: 100%;
+                height: 100%;
+            }
+        }
+        .img12{
+            width: 210px;
+            height: 260px;
+            position: absolute;
+            top: 160px;
+            left: 1210px;
+            .photo12{
+                width: 100%;
+                height: 100%;
+            }
+        }
+        .img13{
+            width: 600px;
+            height: 300px;
+            position: absolute;
+            top: 450px;
+            left: 870px;
+            .photo13{
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+}

@@ -1,0 +1,400 @@
+.ocean .ocean-things {
+  padding-left: 150px;
+  padding-right: 150px;
+  padding-top: 30px;
+  padding-bottom: 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.ocean .ocean-things .img1 {
+  width: 600px;
+  height: 730px;
+  padding-top: 100px;
+  z-index: 1;
+}
+
+.ocean .ocean-things .img1 .img-1 {
+  width: 100%;
+  height: 100%;
+}
+
+.ocean .ocean-things .title {
+  margin-top: 0;
+  width: 700px;
+  height: 280px;
+  background-color: gold;
+  position: absolute;
+  left: 520px;
+}
+
+.ocean .ocean-things .title .title-head {
+  font-weight: bold;
+  font-size: 60px;
+  text-align: right;
+  color: midnightblue;
+  z-index: 2;
+}
+
+.ocean .ocean-things .title .title-text {
+  padding-left: 350px;
+  padding-top: 70px;
+  width: 400px;
+  height: 200px;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: sans-serif;
+}
+
+.ocean .ocean-things .ocean3rd .ocean-button {
+  margin-left: 300px;
+  padding: 5px;
+  border: none;
+  background-color: gold;
+  width: 180px;
+  height: 50px;
+  z-index: 1;
+  position: absolute;
+  top: 390px;
+  left: 830px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.ocean .ocean-things .ocean3rd .img2 {
+  padding: 380px 0;
+  padding-left: 100px;
+  width: 600px;
+  height: 400px;
+}
+
+.ocean .ocean-things .ocean3rd .img2 .img-2 {
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+}
+
+.ocean .ocean-ievenn {
+  position: absolute;
+  top: 900px;
+  left: 1250px;
+  color: gray;
+  font-family: sans-serif;
+  font-size: 20px;
+}
+
+.ecology {
+  padding-bottom: 100px;
+}
+
+.ecology .ecology-things {
+  padding: 0 150px;
+  padding-bottom: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.ecology .ecology-things .ecology-title {
+  padding-top: 0;
+}
+
+.ecology .ecology-things .ecology-title .ecology-text {
+  width: 300px;
+  height: 280px;
+  font-family: sans-serif;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 20px;
+  color: gray;
+  padding-top: 0;
+}
+
+.ecology .ecology-things .ecology-title .ecology-head {
+  padding-left: 40px;
+  background-color: gold;
+  padding-top: 100px;
+  width: 150px;
+  height: 380px;
+  color: midnightblue;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.ecology .ecology-things .ecology-photos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.ecology .ecology-things .ecology-photos .img-12 .photo1 {
+  width: 650px;
+  height: 400px;
+  padding-right: 5px;
+}
+
+.ecology .ecology-things .ecology-photos .img-12 .photo2 {
+  width: 600px;
+  height: 300px;
+  padding-left: 50px;
+  padding-right: 5px;
+}
+
+.ecology .ecology-things .ecology-photos .img-34 .photo3 {
+  width: 350px;
+  height: 250px;
+}
+
+.ecology .ecology-things .ecology-photos .img-34 .bg-color-4 {
+  width: 380px;
+  height: 480px;
+  background-color: gold;
+}
+
+.ecology .ecology-things .ecology-photos .img-34 .bg-color-4 .photo4 {
+  width: 350px;
+  height: 450px;
+}
+
+.cleaning {
+  width: 100%;
+  height: 300px;
+  background-color: gold;
+}
+
+.cleaning .cleaning-things {
+  padding: 0 150px;
+  padding-bottom: 150px;
+}
+
+.cleaning .cleaning-things .cleaning-head {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.cleaning .cleaning-things .cleaning-head .title-photo {
+  width: 390px;
+  height: 350px;
+  position: -webkit-sticky;
+  position: sticky;
+  padding-right: 50px;
+}
+
+.cleaning .cleaning-things .cleaning-head .title-photo .photo7 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  bottom: 90px;
+}
+
+.cleaning .cleaning-things .cleaning-head .main-texts {
+  padding-top: 50px;
+  padding-left: 40px;
+}
+
+.cleaning .cleaning-things .cleaning-head .main-texts .cleaning-title {
+  color: midnightblue;
+  font-size: 50px;
+  font-weight: bold;
+  padding-bottom: 15px;
+}
+
+.cleaning .cleaning-things .cleaning-head .main-texts .cleaning-head-text {
+  font-weight: bold;
+  font-size: 20px;
+  padding-bottom: 15px;
+  font-family: sans-serif;
+}
+
+.cleaning .cleaning-things .cleaning-head .main-texts .cleaning-button {
+  color: white;
+  background-color: black;
+  width: 180px;
+  height: 50px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.cleaning .cleaning-things .cleaning-main-text {
+  width: 430px;
+  height: 200px;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: sans-serif;
+  text-align: left;
+  padding-bottom: 50px;
+}
+
+.cleaning .cleaning-things .cleaning-2rd .cleaning-about {
+  width: 650px;
+  height: 450px;
+  background-color: gold;
+  padding: 0px 50px;
+  z-index: 3;
+  position: absolute;
+  top: 2850px;
+}
+
+.cleaning .cleaning-things .cleaning-2rd .cleaning-about .about-cleaning-title {
+  color: midnightblue;
+  font-size: 55px;
+  font-weight: bold;
+  position: absolute;
+  padding-right: 30px;
+  top: 0;
+}
+
+.cleaning .cleaning-things .cleaning-2rd .cleaning-about .about-cleaning-text {
+  font-weight: bold;
+  font-size: 20px;
+  font-family: sans-serif;
+  text-align: left;
+  padding-left: 15px;
+  padding-right: 50px;
+  position: absolute;
+  top: 180px;
+}
+
+.cleaning .cleaning-things .cleaning-2rd .cleaning-about .about-cleaning-button {
+  color: white;
+  background-color: black;
+  width: 180px;
+  height: 50px;
+  font-size: 16px;
+  font-weight: bold;
+  position: absolute;
+  top: 360px;
+}
+
+.cleaning .cleaning-things .cleaning-2rd .cleaning-photos .img8 .bg-color8 {
+  width: 450px;
+  height: 370px;
+  z-index: 2;
+  position: absolute;
+  top: 2825px;
+  left: 980px;
+  background-color: gold;
+}
+
+.cleaning .cleaning-things .cleaning-2rd .cleaning-photos .img8 .photo8 {
+  width: 700px;
+  height: 540px;
+  z-index: 2;
+  position: absolute;
+  top: 2610px;
+  left: 675px;
+}
+
+.cleaning .cleaning-things .cleaning-2rd .cleaning-photos .img9 .photo9 {
+  width: 810px;
+  height: 520px;
+  padding-bottom: 300px;
+  z-index: 1;
+  position: absolute;
+  top: 2750px;
+  left: 675px;
+}
+
+.save-ocean {
+  width: 100%;
+  height: 830px;
+  position: absolute;
+  top: 3400px;
+  background-color: gold;
+}
+
+.save-ocean .save-ocean-things {
+  width: 500px;
+  height: 280px;
+  background-color: white;
+  z-index: 2;
+  position: absolute;
+  top: 300px;
+  left: 600px;
+  padding: 20px;
+}
+
+.save-ocean .save-ocean-things .save-ocean-title {
+  color: midnightblue;
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.save-ocean .save-ocean-things .save-ocean-text {
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+  font-family: sans-serif;
+  margin-top: 30px;
+}
+
+.save-ocean .save-ocean-things .save-ocean-button {
+  color: white;
+  background-color: black;
+  width: 180px;
+  height: 50px;
+  font-size: 16px;
+  font-weight: bold;
+  margin-left: 140px;
+  margin-top: 30px;
+}
+
+.save-ocean .save-ocean-photos {
+  padding-bottom: 300px;
+}
+
+.save-ocean .save-ocean-photos .img10 {
+  width: 670px;
+  height: 540px;
+  position: absolute;
+  top: 130px;
+  left: 170px;
+}
+
+.save-ocean .save-ocean-photos .img10 .photo10 {
+  width: 100%;
+  height: 100%;
+}
+
+.save-ocean .save-ocean-photos .img11 {
+  width: 310px;
+  height: 360px;
+  position: absolute;
+  top: 60px;
+  left: 870px;
+}
+
+.save-ocean .save-ocean-photos .img11 .photo11 {
+  width: 100%;
+  height: 100%;
+}
+
+.save-ocean .save-ocean-photos .img12 {
+  width: 210px;
+  height: 260px;
+  position: absolute;
+  top: 160px;
+  left: 1210px;
+}
+
+.save-ocean .save-ocean-photos .img12 .photo12 {
+  width: 100%;
+  height: 100%;
+}
+
+.save-ocean .save-ocean-photos .img13 {
+  width: 600px;
+  height: 300px;
+  position: absolute;
+  top: 450px;
+  left: 870px;
+}
+
+.save-ocean .save-ocean-photos .img13 .photo13 {
+  width: 100%;
+  height: 100%;
+}
+/*# sourceMappingURL=style.css.map */
